@@ -205,8 +205,6 @@ const xerocodeway = () => {
                             src={Chart2}
                             alt='chart 2'
                             className='max-sm:w-1/2 md:w-1/2'
-                            // width={100}
-                            // height={50}
                         />
                     </div>
                     <div className='flex flex-col md:w-1/2'>

@@ -1,13 +1,27 @@
+'use client';
 import logo from '../../public/assets/logo.png';
+import clogo from '../../public/assets/company-logo.png';
 import Image from 'next/image';
 import { Button } from '@mui/material';
+import Navbar from '../components/navbar';
 
 const header = () => {
     return (
-        <div className='flex justify-center mt-4 font-[Nunito Sans] max-sm:hidden'>
-            <div className='nav-bar flex flex-row w-4/5 py-3 px-28 justify-between'>
-                <Image src={logo} alt='Company Logo' width={120} />
-                <div className='flex flex-row'>
+        <div className='flex justify-center md:mt-4 font-[Nunito Sans] max-sm:w-full max-sm:m-4 max-sm:p-4'>
+            <div className='md:nav-bar flex flex-row md:w-4/5 md:py-3 md:px-28 justify-between max-sm:w-full'>
+                <Image
+                    src={logo}
+                    alt='Company Logo'
+                    width={120}
+                    className='max-sm:hidden'
+                />
+                <Image
+                    src={clogo}
+                    alt='Company Logo'
+                    width={40}
+                    className='md:hidden'
+                />
+                <div className='flex flex-row max-sm:hidden'>
                     <span className='m-auto font-normal text-base mr-5 hover:text-[#0C5BC6] hover:font-semibold cursor-pointer'>
                         Home
                     </span>
@@ -23,7 +37,7 @@ const header = () => {
                 </div>
                 <Button
                     variant='outlined'
-                    className='text-[#0C5BC6] normal-case border-[#0C5BC6] px-8'
+                    className='text-[#0C5BC6] normal-case border-[#0C5BC6] px-8 max-sm:hidden'
                 >
                     Sign In
                 </Button>

@@ -56,7 +56,7 @@ const section1 = () => {
                         alt='BRSR logo'
                         // width={150}
                         // height={50}
-                        className='md:w-[150px] max-sm:w-12'
+                        className='md:max-w-[150px] max-sm:w-12'
                     />
                 </div>
                 <div className='flex flex-col justify-between'>
@@ -81,7 +81,7 @@ const section1 = () => {
                         alt='greenhouse logo'
                         // width={100}
                         // height={50}
-                        className='md:w-[112px] max-sm:w-12'
+                        className='md:w-[100px] max-sm:w-12'
                     />
                     <Image
                         src={image3}
@@ -89,7 +89,7 @@ const section1 = () => {
                         // width={100}
                         // height={50}
                         // className='mb-[20px]'
-                        className='md:w-[112px] max-sm:w-12'
+                        className='md:w-[100px] max-sm:w-12'
                     />
                 </div>
                 <div className='flex flex-col justify-between'>
@@ -99,7 +99,7 @@ const section1 = () => {
                         // width={60}
                         // height={20}
                         // className='mb-[20px]'
-                        className='md:w-[112px] max-sm:w-8 mb-5'
+                        className='md:max-w-[60px] max-sm:w-8 mb-5'
                     />
                     <Image
                         src={image4}
@@ -107,7 +107,7 @@ const section1 = () => {
                         // width={60}
                         // height={20}
                         // className='mb-10'
-                        className='md:w-[112px] max-sm:w-8'
+                        className='md:max-w-[60px] max-sm:w-8'
                     />
                 </div>
             </section>

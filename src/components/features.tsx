@@ -31,12 +31,12 @@ const features = () => {
                     Outlined
                 </button>
             </div>
-            <div className='flex justify-center'>
+            <div className='flex justify-center mx-20'>
                 <Image
                     src={Frame}
                     alt='welcome dashboard image'
                     // width={1000}
-                    className='md:mx-20 max-sm:mx-5 max-sm:mt-5'
+                    className='md:mx-20 max-sm:mx-10 max-sm:mt-5'
                 />
             </div>
             <div className='flex md:flex-row mt-20 mx-20 max-sm:flex-col'>
@@ -75,7 +75,7 @@ const features = () => {
 
             <div className='flex md:flex-row justify-evenly max-sm:flex-col max-sm:text-[#5E587A]'>
                 <div className='flex flex-col'>
-                    <div className='flex flex-row scaling-box px-4 py-4 md:mb-10 max-sm:mb-6'>
+                    <div className='flex flex-row scaling-box px-4 py-4 md:mb-10 max-sm:mb-6 max-sm:mx-5'>
                         <div className='img-box max-sm:w-1/6 max-sm:h-1/6 max-sm:rounded-md flex justify-center'>
                             <Image
                                 src={I1}
@@ -84,7 +84,7 @@ const features = () => {
                             />
                         </div>
                         <div className='flex flex-col pl-4'>
-                            <span className='font-[Poppins] max-sm:text-[#332C5C] max-sm:text-xl'>
+                            <span className='font-[Poppins] max-sm:text-[#332C5C] max-sm:text-lg'>
                                 Infrastructure
                             </span>
                             <span className='font-[Nunito]'>
@@ -93,7 +93,7 @@ const features = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-row scaling-box px-4 py-4 md:mb-10 max-sm:mb-6'>
+                    <div className='flex flex-row scaling-box px-4 py-4 md:mb-10 max-sm:mb-6 max-sm:mx-5'>
                         <div className='img-box max-sm:w-1/6 max-sm:h-1/6 max-sm:rounded-md flex justify-center'>
                             <Image
                                 src={I2}
@@ -102,7 +102,7 @@ const features = () => {
                             />
                         </div>
                         <div className='flex flex-col pl-4'>
-                            <span className='font-[Poppins] max-sm:text-[#332C5C] max-sm:text-xl'>
+                            <span className='font-[Poppins] max-sm:text-[#332C5C] max-sm:text-lg'>
                                 Networking
                             </span>
                             <span className='font-[Nunito]'>
@@ -113,7 +113,7 @@ const features = () => {
                 </div>
 
                 <div className='flex flex-col'>
-                    <div className='flex flex-row scaling-box px-4 py-4 md:mb-10 max-sm:mb-6'>
+                    <div className='flex flex-row scaling-box px-4 py-4 md:mb-10 max-sm:mb-6 max-sm:mx-5'>
                         <div className='img-box max-sm:w-1/6 max-sm:h-1/6 max-sm:rounded-md flex justify-center'>
                             <Image
                                 src={I3}
@@ -122,7 +122,7 @@ const features = () => {
                             />
                         </div>
                         <div className='flex flex-col pl-4'>
-                            <span className='font-[Poppins] max-sm:text-[#332C5C] max-sm:text-xl'>
+                            <span className='font-[Poppins] max-sm:text-[#332C5C] max-sm:text-lg'>
                                 Security
                             </span>
                             <span className='font-[Nunito]'>
@@ -131,7 +131,7 @@ const features = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-row scaling-box px-4 py-4 md:mb-10 max-sm:mb-6'>
+                    <div className='flex flex-row scaling-box px-4 py-4 md:mb-10 max-sm:mb-6 max-sm:mx-5'>
                         <div className='img-box max-sm:w-1/6 max-sm:h-1/6 max-sm:rounded-md flex justify-center'>
                             <Image
                                 src={I4}
@@ -140,7 +140,7 @@ const features = () => {
                             />
                         </div>
                         <div className='flex flex-col pl-4'>
-                            <span className='font-[Poppins] max-sm:text-[#332C5C] max-sm:text-xl'>
+                            <span className='font-[Poppins] max-sm:text-[#332C5C] max-sm:text-lg'>
                                 Applications
                             </span>
                             <span className='font-[Nunito] max-sm:text-base'>
