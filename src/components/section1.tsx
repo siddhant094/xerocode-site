@@ -11,6 +11,9 @@ const section1 = () => {
     return (
         <div>
             <section className='flex flex-col'>
+                <div className='flex items-center justify-center'>
+                    <div className='w-80 h-px border border-zinc-400 items-center'></div>
+                </div>
                 <h1 className='text-[#242331] flex flex-col pt-20 font-[Poppins] text-5xl font-bold max-sm:text-2xl'>
                     <div className='flex justify-center leading-tight text-center'>
                         Build your audience and <br className='md:hidden' />{' '}

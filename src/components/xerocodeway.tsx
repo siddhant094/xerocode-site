@@ -13,7 +13,7 @@ import Image from 'next/image';
 
 const xerocodeway = () => {
     return (
-        <div className='mx-28 bg-[#FFF] mt-30 mb-40 rounded-3xl text-white px-16 py-16 max-sm:border max-sm:border-[#00000040] max-sm:mx-3 max-sm:mt-6 max-sm:p-2'>
+        <div className='mx-28 bg-[#FFF] mt-30 mb-0 rounded-3xl text-white px-16 py-8 max-sm:border max-sm:border-[#00000040] max-sm:mx-3 max-sm:mt-6 max-sm:p-2'>
             <div className='text-[#242331] mb-16 leading-tight text-center font-[Poppins] text-4xl font-semibold mt-16 pt-0 max-sm:text-2xl'>
                 The Xerocodee {'way '}
                 <Image
@@ -37,7 +37,19 @@ const xerocodeway = () => {
                     and customize as you scale.
                 </span>
 
-                <div className='flex flex-row max-sm:flex-col'>
+                <div className='flex flex-wrap justify-center mt-8 space-x-4 md:mt-12 md:space-x-6 lg:space-x-8 mb-4'>
+                    <button className='border-b-2 border-blue-500 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                        Your Cloud
+                    </button>
+                    <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                        Infra Components
+                    </button>
+                    <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                        Self-Hosted Apps
+                    </button>
+                </div>
+
+                <div className='flex md:flex-row max-sm:flex-col'>
                     <div className='md:w-1/2'>
                         <Image src={Cloud} alt='cloud image' />
                     </div>
@@ -69,7 +81,7 @@ const xerocodeway = () => {
                     minutes and get back to building stuff that matters.
                 </span>
 
-                <div className='flex flex-row md:mt-24 max-sm:flex-col'>
+                <div className='flex md:flex-row md:mt-24 max-sm:flex-col'>
                     <div className='md:w-1/2 flex flex-row justify-start max-sm:justify-center max-sm:p-8'>
                         <Image
                             src={Pipeline}
@@ -90,7 +102,7 @@ const xerocodeway = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-row mt-20 max-sm:flex-col-reverse max-sm:mt-8'>
+                <div className='flex md:flex-row mt-20 max-sm:flex-col-reverse max-sm:mt-8'>
                     <div className='flex flex-col md:w-1/2'>
                         <span className=' text-[#332C5C] font-[Poppins] text-xl font-semibold max-sm:text-center max-sm:mt-5'>
                             Push to Deploy
@@ -107,7 +119,7 @@ const xerocodeway = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-row mt-20 max-sm:flex-col max-sm:mt-8'>
+                <div className='flex md:flex-row mt-20 max-sm:flex-col max-sm:mt-8'>
                     <div className='md:w-1/2 flex flex-row justify-start max-sm:justify-center'>
                         <Image src={Tool} alt='pipeline image' width={300} />
                     </div>
@@ -125,7 +137,7 @@ const xerocodeway = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-row mt-20 max-sm:flex-col-reverse max-sm:mt-8'>
+                <div className='flex md:flex-row mt-20 max-sm:flex-col-reverse max-sm:mt-8'>
                     <div className='flex flex-col md:w-1/2'>
                         <span className=' text-[#332C5C] font-[Poppins] text-xl font-semibold max-sm:text-center max-sm:mt-8'>
                             Scale infinitely
@@ -159,7 +171,7 @@ const xerocodeway = () => {
                     Memory.
                 </span>
 
-                <div className='flex flex-row mt-20 max-sm:flex-col max-sm:mt-8'>
+                <div className='flex md:flex-row mt-20 max-sm:flex-col max-sm:mt-8'>
                     <div className='md:w-1/2 max-sm:flex max-sm:justify-center'>
                         <Image src={Cost} alt='pipeline image' />
                     </div>
@@ -175,7 +187,7 @@ const xerocodeway = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-row mt-20 max-sm:flex-col-reverse max-sm:mt-8'>
+                <div className='flex md:flex-row mt-20 max-sm:flex-col-reverse max-sm:mt-8'>
                     <div className='flex flex-col md:w-1/2'>
                         <span className=' text-[#332C5C] font-[Poppins] text-xl font-semibold max-sm:text-center max-sm:mt-8'>
                             Preview infra costs
@@ -192,7 +204,7 @@ const xerocodeway = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-row mt-20 max-sm:flex-col max-sm:mt-8'>
+                <div className='flex md:flex-row mt-20 max-sm:flex-col max-sm:mt-8'>
                     <div className='md:w-1/2 flex flex-row justify-start'>
                         <Image
                             src={Chart1}

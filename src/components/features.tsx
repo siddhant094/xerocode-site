@@ -26,11 +26,33 @@ const features = () => {
                 infrastructure and applications for resilience and scalability.
             </p>
 
-            <div className='flex flex-row'>
-                <button className='text-[#494369] border border-[F5F5F7] px-2 py-2 radius-2 max-sm:hidden'>
-                    Outlined
+            <div className='flex flex-wrap justify-center mt-8 space-x-4 md:mt-12 md:space-x-6 lg:space-x-8 mb-4'>
+                <button className='border-b-2 border-blue-500 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                    Apps
+                </button>
+                <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                    App Config
+                </button>
+                <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                    Pipeline
+                </button>
+                <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                    Infra Creation
+                </button>
+                <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                    Cost
+                </button>
+                <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                    Add-ons
+                </button>
+                <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                    Monitoring
+                </button>
+                <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                    Connections
                 </button>
             </div>
+
             <div className='flex justify-center mx-20'>
                 <Image
                     src={Frame}

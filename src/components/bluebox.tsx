@@ -35,7 +35,7 @@ const bluebox = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-row max-sm:flex-col-reverse'>
+                <div className='flex md:flex-row max-sm:flex-col-reverse'>
                     <div className='flex flex-col justify-center'>
                         <span className='leading-tight font-[Poppins] text-3xl font-semibold capitalize mb-6 max-sm:text-xl max-sm:text-center max-sm:mt-8'>
                             Collaborative workflows
