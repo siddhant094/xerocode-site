@@ -2,11 +2,13 @@ import logo from '../../public/assets/logo.png';
 import clogo from '../../public/assets/company-logo.png';
 import Image from 'next/image';
 import { Button } from '@mui/material';
+import Nav from './nav';
 
 const header = () => {
     return (
         <div className='flex justify-center md:mt-4 font-[Nunito Sans] max-sm:w-full max-sm:m-4 max-sm:p-4'>
-            <div className='md:nav-bar md:shadow md:rounded flex flex-row md:w-4/5 md:py-3 md:px-28 justify-between max-sm:w-full'>
+            <Nav />
+            <div className='max-sm:hidden md:nav-bar md:shadow md:rounded flex flex-row md:w-4/5 md:py-3 md:px-28 justify-between max-sm:w-full'>
                 <Image
                     src={logo}
                     alt='Company Logo'
