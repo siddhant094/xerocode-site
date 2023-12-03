@@ -1,5 +1,5 @@
 import Rocket from '../../public/assets/Rocket.png';
-import Line from '../../public/assets/Line.svg';
+import Line from '../../public/assets/line.svg';
 import Cloud from '../../public/assets/cloud.png';
 import Pipeline from '../../public/assets/pipeline.png';
 import Tool from '../../public/assets/tools.png';

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Button from '@mui/material/Button';
 
-import Frame from '../../public/assets/frame.png';
+import Frame from '../../public/assets/Frame.png';
 import With from '../../public/assets/with.png';
 import Without from '../../public/assets/without.png';
 import I1 from '../../public/assets/infrastructure.png';
