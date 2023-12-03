@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Hosting
+
+Entire design has been replicated, the website is made mobile responsive as per the design. 
+
+The project has been hosted on vercel.
+
+Open [https://xerocode-site.vercel.app/](https://xerocode-site.vercel.app/) with your browser to see the result.
+
+## Technical Requirements Fulfilled:
+
+Language: **TypeScript**
+
+Framework/Library: **Next.js**
+
+Styling: **TailwindCSS**
+
+Architecture: **MVVC (Model-View-ViewModel-Controller)**
+
+Testing: **Using Jest (10 test cases created)**
 
 ## Getting Started
 
@@ -6,31 +24,33 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Project Structure
 
-## Learn More
+The Overall code is divided into 6 components:
 
-To learn more about Next.js, take a look at the following resources:
+ - **Header** - This component contains the navbar for the home page.
+ - **Section1** - It contains the main landing page code from Build your audience heading to .
+ - **Features** - It contains code starting from Features heading.
+ - **Bluebox** - It contains the part which is wrapped in the Blue Background.
+ - **Xerocodeway** - It contains code starting from the xerocode way heading until the carousel.
+ - **Newsletter** - It contains the carousel of success stories, newsletter, and the footer.
+ 
+## Testing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The Testing for this project has been done using Jest, and a total of 10 test cases have been written.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To do testing, run the following Command:
 
-## Deploy on Vercel
+```bash
+npm run test
+```
+## Challenges Faced
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The Figma Design for the website was designed for the screen larger than that of regular laptops, so coding it was a bit time consuming.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Adding the carousel of Our Success stories section took some time.
