@@ -17,7 +17,7 @@ const features = () => {
                     Features
                 </button>
             </div>
-            <div className='text-[#242331] leading-tight mb-5 text-center font-[Poppins] text-4xl font-semibold mt-0 pt-0 max-sm:text-2xl'>
+            <div className='text-[#242331] leading-tight mb-5 text-center font-[Poppins] text-4xl font-semibold mt-0 pt-0 max-sm:text-2xl mx-2'>
                 <span className='md:text-[#0C5BC6]'>Save {'1000s '}</span>
                 of expensive coder <br className='md:hidden' /> hours
             </div>

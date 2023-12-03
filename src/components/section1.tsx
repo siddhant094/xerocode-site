@@ -14,7 +14,7 @@ const section1 = () => {
                 <div className='md:hidden flex items-center justify-center'>
                     <div className='w-80 h-px border border-zinc-400 items-center'></div>
                 </div>
-                <h1 className='text-[#242331] flex flex-col pt-20 font-[Poppins] text-5xl font-bold max-sm:text-2xl'>
+                <h1 className='text-[#242331] flex flex-col md:pt-20 max-sm:pt-14 font-[Poppins] text-5xl font-bold max-sm:text-2xl'>
                     <div
                         data-testid='s1-text'
                         className='flex justify-center leading-tight text-center'
