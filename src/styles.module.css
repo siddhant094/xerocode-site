@@ -1,3 +1,10 @@
+.head-er {
+  border-radius: 10px;
+  border: 1px solid rgba(229, 229, 229, 0.50);
+  background: #FFF;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
 .content {
   border-radius: 20px;
   display: flex;

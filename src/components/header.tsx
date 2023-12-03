@@ -6,7 +6,7 @@ import { Button } from '@mui/material';
 const header = () => {
     return (
         <div className='flex justify-center md:mt-4 font-[Nunito Sans] max-sm:w-full max-sm:m-4 max-sm:p-4'>
-            <div className='md:nav-bar md:head-er flex flex-row md:w-4/5 md:py-3 md:px-28 justify-between max-sm:w-full'>
+            <div className='md:nav-bar shadow rounded flex flex-row md:w-4/5 md:py-3 md:px-28 justify-between max-sm:w-full'>
                 <Image
                     src={logo}
                     alt='Company Logo'
