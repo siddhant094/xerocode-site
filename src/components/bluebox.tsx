@@ -6,7 +6,10 @@ import Image from 'next/image';
 const bluebox = () => {
     return (
         <div className='mx-28 bg-[#0C5BC6] mt-28 mb-20 rounded-3xl text-white px-20 py-16 max-sm:mt-5 max-sm:mx-3 max-sm:p-2 max-sm:pt-8'>
-            <div className='leading-tight mb-8 text-center font-[Poppins] text-3xl font-semibold mt-0 pt-0 capitalize max-sm:text-xl'>
+            <div
+                data-testid='blue-text'
+                className='leading-tight mb-8 text-center font-[Poppins] text-3xl font-semibold mt-0 pt-0 capitalize max-sm:text-xl'
+            >
                 Modernize apps, infrastructure
                 <br className='md:hidden' />
                 with cloud native <br className='max-sm:hidden' />
@@ -37,7 +40,10 @@ const bluebox = () => {
 
                 <div className='flex md:flex-row max-sm:flex-col-reverse'>
                     <div className='flex flex-col justify-center'>
-                        <span className='leading-tight font-[Poppins] text-3xl font-semibold capitalize mb-6 max-sm:text-xl max-sm:text-center max-sm:mt-8'>
+                        <span
+                            data-testid='blue-text2'
+                            className='leading-tight font-[Poppins] text-3xl font-semibold capitalize mb-6 max-sm:text-xl max-sm:text-center max-sm:mt-8'
+                        >
                             Collaborative workflows
                         </span>
                         <span className='font-[Nunito] font-normal text-sm leading-[1.8] max-sm:text-center max-sm:mb-8'>

@@ -11,17 +11,23 @@ const section1 = () => {
     return (
         <div>
             <section className='flex flex-col'>
-                <div className='flex items-center justify-center'>
+                <div className='md:hidden flex items-center justify-center'>
                     <div className='w-80 h-px border border-zinc-400 items-center'></div>
                 </div>
                 <h1 className='text-[#242331] flex flex-col pt-20 font-[Poppins] text-5xl font-bold max-sm:text-2xl'>
-                    <div className='flex justify-center leading-tight text-center'>
+                    <div
+                        data-testid='s1-text'
+                        className='flex justify-center leading-tight text-center'
+                    >
                         Build your audience and <br className='md:hidden' />{' '}
                         grow {'your '}
                         <br className='max-sm:hidden' /> brand
                     </div>
                 </h1>
-                <div className='flex justify-center text-[#797979] leading-relaxed mb-2 text-center max-sm:px-8 max-sm:mt-4'>
+                <div
+                    data-testid='s1-text2'
+                    className='flex justify-center text-[#797979] leading-relaxed mb-2 text-center max-sm:px-8 max-sm:mt-4'
+                >
                     no more, no less. Deploy from our single pane of glass,
                     manage them with ease and scale up as fast {'as '}
                     <br className='max-sm:hidden' />

@@ -284,7 +284,10 @@ const newsletter = () => {
                 </div>
                 <div className='flex flex-row max-sm:p-8 max-sm:justify-between max-sm:text-base'>
                     <div className='flex flex-col md:mr-16'>
-                        <span className='pb-8 font-[Poppins] font-semibold leading-[160%] text-[#332C5C]'>
+                        <span
+                            data-testid='news-text'
+                            className='pb-8 font-[Poppins] font-semibold leading-[160%] text-[#332C5C]'
+                        >
                             Our links
                         </span>
                         <span className='text-[#494369] font-[Nunito] font-normal text-xs leading-8 hover:text-[#0C5BC6] hover:font-semibold cursor-pointer max-sm:text-base pb-3'>
@@ -351,7 +354,10 @@ const newsletter = () => {
                     <span className='text-[#494369] font-[Nunito] font-normal text-xs hover:text-[rgb(12,91,198)] hover:font-semibold cursor-pointer max-sm:text-center max-sm:mb-5 max-sm:text-base pb-3'>
                         {'Terms & Condition  |   Privacy Policy '}
                     </span>
-                    <span className='text-[#494369] font-[Nunito] font-normal text-xs max-sm:text-center max-sm:mb-5 max-sm:text-base pb-3'>
+                    <span
+                        data-testid='news-text2'
+                        className='text-[#494369] font-[Nunito] font-normal text-xs max-sm:text-center max-sm:mb-5 max-sm:text-base pb-3'
+                    >
                         Copyright © 2023 <b>EXOCODE TECHNOLOGIES</b>
                         <br />
                         <span className='max-sm:hidden'>{' | '}</span>

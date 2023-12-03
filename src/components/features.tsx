@@ -36,7 +36,10 @@ const features = () => {
                 <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
                     Pipeline
                 </button>
-                <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
+                <button
+                    data-testid='features-text'
+                    className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'
+                >
                     Infra Creation
                 </button>
                 <button className='border border-gray-200 bg-white text-gray-700 py-2 px-4 md:mt-0 mt-2 md:py-1 md:px-4 rounded-md text-sm md:text-md font-semibold transition-colors duration-300 hover:text-blue-500'>
@@ -74,7 +77,10 @@ const features = () => {
                     />
                 </div>
                 <div className='grow flex flex-col items-center'>
-                    <p className='text-[#242331] font-[Nunito] font-bold text-2xl md:mb-20 max-sm:mb-8 max-sm:text-xl'>
+                    <p
+                        data-testid='features-text2'
+                        className='text-[#242331] font-[Nunito] font-bold text-2xl md:mb-20 max-sm:mb-8 max-sm:text-xl'
+                    >
                         With Xerocodee
                     </p>
                     <Image

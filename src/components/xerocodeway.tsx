@@ -29,7 +29,10 @@ const xerocodeway = () => {
                 </span>
 
                 <Image src={Line} alt='line' />
-                <span className='text-center text-[#332C5C] font-[Poppins] text-2xl font-semibold mt-24 max-sm:mt-8 max-sm:text-xl'>
+                <span
+                    data-testid='code-text'
+                    className='text-center text-[#332C5C] font-[Poppins] text-2xl font-semibold mt-24 max-sm:mt-8 max-sm:text-xl'
+                >
                     Self Serve Infrastructure
                 </span>
                 <span className='text-center text-[#5E587A] font-[Nunito] mt-6 max-sm:text-base'>
@@ -124,7 +127,10 @@ const xerocodeway = () => {
                         <Image src={Tool} alt='pipeline image' width={300} />
                     </div>
                     <div className='flex flex-col md:w-1/2'>
-                        <span className=' text-[#332C5C] font-[Poppins] text-xl font-semibold max-sm:text-center max-sm:mt-8'>
+                        <span
+                            data-testid='code-text2'
+                            className=' text-[#332C5C] font-[Poppins] text-xl font-semibold max-sm:text-center max-sm:mt-8'
+                        >
                             Multiple runtimes
                         </span>
                         <span className='text-[#5E587A] font-[Nunito] mt-8 text-sm max-sm:text-center'>
