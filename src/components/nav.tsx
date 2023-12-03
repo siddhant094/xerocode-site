@@ -66,7 +66,7 @@ export default function DrawerAppBar(props: Props) {
                 <Toolbar className='justify-between bg-inherit'>
                     <Image src={clogo} alt='img' width={50} height={50} />
                     <IconButton
-                        color='black'
+                        color='info'
                         aria-label='open drawer'
                         edge='start'
                         onClick={handleDrawerToggle}
